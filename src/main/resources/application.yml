@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active:
+      - dog
+      - EN
+      - prod
+guru:
+  username: YmlUserName
+  password: YmlPassword
+  jdbcurl: YalUrl
+
+--- #This dashes means a new configuration
+spring:
+  profiles: prod
+guru:
+  username: YmlProdUserName
+  password: YmlProdPassword
+  jdbcurl: YaProdlUrl
